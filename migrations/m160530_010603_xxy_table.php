@@ -28,12 +28,12 @@ class m160530_010603_xxy_table extends Migration
         $this->createTable('xxy_ip',[
             'id' => 'pk',
             'sip' => 'varchar(15) NOT NULL COMMENT "startip"',
-            `scip` => 'int(11) unsigned NOT NULL COMMENT "start整形"',
-            `eip` => 'varchar(15) NOT NULL COMMENT "endip"',
-            `ecip` => 'int(11) unsigned NOT NULL COMMENT "endip整形"',
-            `address` => 'varchar(255) NOT NULL COMMENT "地址"',
-            `isp` => 'varchar(255) NOT NULL COMMENT "供应商"'
-            ]
+            'scip' => 'int(11) unsigned NOT NULL COMMENT "start整形"',
+            'eip' => 'varchar(15) NOT NULL COMMENT "endip"',
+            'ecip' => 'int(11) unsigned NOT NULL COMMENT "endip整形"',
+            'address' => 'varchar(255) NOT NULL COMMENT "地址"',
+            'isp' => 'varchar(255) NOT NULL COMMENT "供应商"'
+            ]);
     }
 
     public function safeDown()
