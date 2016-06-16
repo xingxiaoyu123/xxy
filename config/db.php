@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=10.0.3.203;dbname=learn',
+    'dsn' => 'mysql:host=localhost;dbname=mydatabase',
     'username' => 'root',
-    'password' => '912913',
+    'password' => 'luliyuan12',
     'charset' => 'utf8',
     // 'masters' =>[
     	// ['dsn' => 'mysql:host=10.0.3.203;dbname=learn'],
